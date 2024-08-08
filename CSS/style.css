@@ -1,0 +1,82 @@
+/* -----------------style.css--------------------- */
+
+/* estilo p/ o corpo da página */
+body{
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preechimento padrão */
+    display: flex; /* Define o modelo de layout flexível para o corpo */
+    justify-content: center;/* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura do corpo em 100% da altura da janela de visualição */
+    background: linear-gradient(to bottom, #ff99cc,#6699ff); /* define um gradiente de fundo  */
+    font-family: Arial, sans-serif; /* Define a fonte do texto como Arial */
+}
+
+/* Estilo p/o contêiner principal */
+.container{
+    background: white; /* Define o fundo do contêiner como branco */
+    padding: 20px; /* Adiciona um preechimento de 20px ao redor do conteúdo do contêiner */
+    border-radius: 10px; /* define bordas arredondadas com raio de 10px */
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1); /* Adiciona uma sombra c/deslocamento vertical */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    width: 280px; /* Define a largura do conntêiner como 280px */
+}
+
+/* Estilo p/as imagens */
+
+img{
+    width: 100%; /* define a largira da imagem p/100% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px 10px 0 0; /* Arrendonda os cantos superiores da imagem */
+}
+
+/* Estilo p/os Formulários */
+
+form{
+    margin-top: 20px; /* Adiciona uma margem superior de 20px */
+}
+
+/* Estilo p/os campos de entrada de e-mail e senha */
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: calc(100% - 20px); /* define a largura dos campos c/100% do contêiner pai , menos 20 px */
+    padding: 10px; /* Adiciona um preenchimento da 10px dentro de campos */
+    margin: 10px 0; /* adiciona uma margem de 10px acima e abaixo dos campos */
+    box-sizing: border-box /* inclui padding e border na largura e altura total dos elementos */;
+    border: 1px solid #ccc; /* define uma bordar sólida de 1px c/cor cinza claro */
+    border-radius: 5px;/* define bordas arrendodadas c/ raio de 5px */
+}
+
+/* Estilo p/botão de envio */
+input[type="submit"]{
+    width: calc(100% - 20px); /* Define a largura do botão c/100% do contêiner do pai, menos 20px */
+    padding: 10px; /* Adiciona um preenchimento de 10px dentro do botão */
+    background-color: #4caf50; /* Define a cor de fundo do botão como verde */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a bordar padrão */
+    border-radius: 5px; /* Define bordas arrendodadas com raio de 5px */
+    cursor: pointer; /* Define o cursor como ponteiro(mãozinha) ao passar sobre o botão */
+    box-sizing: border-box; /* Inclui padding e border na altura e largura total do botão */
+    margin-top: 10px; /* Adiciona uma margem superior de 10px  */
+}
+
+/* Estilo p/ o botão de envio qdo em estado de foco */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Altera a cor de fundo do botão qdo o cursor está sobre o botão */
+}
+
+/* Estilo p/ o link de cadastro */
+.cadastro{
+    display: block; /* Define o link como um bloco */
+    margin-top: 20px; /* Adiciona uma margem superior de 20px */
+    color: #333; /* Define a cor do texto como cinza escuro */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+/* Estilo p/o link de cadastro qdo em estado de foco */
+.cadastro-link:hover {
+    text-decoration: underline /* Adiciona sublinhado ao link qdo o cursor passar sobre o link */;
+}
+
+
+
