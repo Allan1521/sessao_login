@@ -15,3 +15,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') { /* Verfica se o formlário foi envia
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form method="post">
+        Nome: <input type="text" name="nome" required> <br><br>
+        Email: <input type="email" name="email" required> <br><br>
+    Senha: <input type="password" name= "senha" required ><br><br>
+    <input type="submit" value="Cadastrar">
+    </form>  
+</body>
+</html>
